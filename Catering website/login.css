@@ -1,0 +1,55 @@
+.container {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container h1 {
+  color: black;
+  font-size: 36px;
+  text-align: center;
+}
+.container input {
+  height: 30px;
+  width: 100%;
+  opacity: 0.8;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: none;
+  outline: none;
+  border: 2px solid gray;
+  border-radius: 40px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.container input::placeholder {
+  color: black;
+}
+
+.foot {
+  text-align: center;
+}
+body {
+  background: url("images/login-background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.remember-forgot {
+  display: flex;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+  float: right;
+}
+
+/* New style to remove underline from links */
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #077af4; 
+}
+.message{
+  color: white;
+}
