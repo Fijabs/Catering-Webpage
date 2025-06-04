@@ -1,0 +1,84 @@
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container h1{
+    color:black;
+    font-size: 36px;
+    text-align: center;
+}
+.container input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border: 2px solid gray;
+    border-radius: 40px;
+    opacity: 0.8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.container input::placeholder{
+    color: black;
+}
+
+.foot{
+    text-align: center;
+}
+body{
+    background: url("images/signup-background.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+.form{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #007BFF;
+}
+.have-account{
+    color: black;
+    font-size: 16.5px;
+}
+.input1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.input2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.input3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.input4{
+    /*align-items: center; justify-content: center;*/
+    border: 2px solid gray;
+    display: flex;
+    width:30px;
+    opacity: 0.8;
+}
+.input5{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}   
+.input6{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
